@@ -6,13 +6,13 @@
 </head>
 <body>
 <script>
-    let num=parseInt(prompt('Nhập 1 số bất kì'))
-    let total=0
-    let i;
-    for (i=0;i<=num ;i++){
-        total=total+1
-        alert(total)
+    let num = 0
+    let total = 0
+    while (num != -1) {
+        num = parseInt(prompt('Nhập 1 số bất kì'))
+        total = total + num
     }
+    alert(total)
 </script>
 </body>
 </html>
